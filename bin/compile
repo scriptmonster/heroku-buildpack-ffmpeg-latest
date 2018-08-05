@@ -7,7 +7,7 @@ indent() {
 echo "-----> Install ffmpeg"
 BUILD_DIR=$1
 VENDOR_DIR="vendor"
-DOWNLOAD_URL="https://github.com/scriptmonster/heroku-buildpack-ffmpeg-latest/raw/static/ffmpeg-3.3.8-static.tar.gz"
+DOWNLOAD_URL="https://raw.githubusercontent.com/scriptmonster/heroku-buildpack-ffmpeg-latest/static/ffmpeg-3.3.8-static.tar.gz"
 
 echo "DOWNLOAD_URL = " $DOWNLOAD_URL | indent
 
